@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1462669735 source:c:\users\54sky\desktop\ttt interface\actions.cpp
+	<iostream>
+	"Actions.h"
+
+1462669896 source:c:\users\54sky\desktop\ttt interface\main.cpp
+	<iostream>
+	<cstdlib>
+	"Actions.h"
+
+1462668632 c:\users\54sky\desktop\ttt interface\actions.h
+

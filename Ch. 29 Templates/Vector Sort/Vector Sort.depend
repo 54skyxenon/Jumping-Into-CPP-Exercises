@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1479613346 source:c:\users\brandon\desktop\vector sort\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<ctime>
+	<cstdlib>
+

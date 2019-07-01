@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Doc title</title>
+</head>
+
+<body>This is a nice <a href="http://www.cprogramming.com">link</a> to a website.
+	<nl>
+		<li>first item</li>
+		<li>second item</li>
+		<li>third item</li>
+		<li>fourth item</li>
+	</nl>
+	<ul>
+		<li>first item</li>
+		<li>second item</li>
+	</ul>
+</body>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1483021334 source:c:\users\brandon\desktop\xml parser\xml.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"XML_DOC.h"
+
+1482841124 c:\users\brandon\desktop\xml parser\xml_node.h
+
+1482839986 source:c:\users\brandon\desktop\xml parser\xml_node.cpp
+	<iostream>
+	"XML_NODE.h"
+
+1483066403 c:\users\brandon\desktop\xml parser\xml_doc.h
+
+1483087279 source:c:\users\brandon\desktop\xml parser\xml_doc.cpp
+	<iostream>
+	<vector>
+	"XML_DOC.h"
+

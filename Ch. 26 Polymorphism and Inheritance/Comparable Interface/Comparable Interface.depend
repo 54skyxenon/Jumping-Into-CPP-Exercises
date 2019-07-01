@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1467451186 source:c:\users\brandon\desktop\comparable interface\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	"Comparable.h"
+	"HighScoreElement.h"
+
+1467420281 c:\users\brandon\desktop\comparable interface\comparable.h
+
+1467420160 source:c:\users\brandon\desktop\comparable interface\highscoreelement.cpp
+	<iostream>
+	"Comparable.h"
+	"HighScoreElement.h"
+
+1467420160 c:\users\brandon\desktop\comparable interface\highscoreelement.h
+

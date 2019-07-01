@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1465120504 source:c:\users\brandon\desktop\vector class\main.cpp
+	<iostream>
+	<cstdlib>
+	"vectorOfInt.h"
+
+1465120162 c:\users\brandon\desktop\vector class\vectorofint.h
+
+1465121265 source:c:\users\brandon\desktop\vector class\vectorofint.cpp
+	<iostream>
+	"vectorOfInt.h"
+

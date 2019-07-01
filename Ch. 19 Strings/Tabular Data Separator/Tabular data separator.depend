@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1459303127 source:c:\users\brandon\desktop\tabular data separator\main.cpp
+	<iostream>
+	<string>
+	<vector>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1451722191 source:c:\users\brandon\desktop\50 numbers\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

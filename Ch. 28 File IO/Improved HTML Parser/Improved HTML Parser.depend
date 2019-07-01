@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1483178225 source:c:\users\brandon\desktop\improved html parser\html_doc.cpp
+	<iostream>
+	<vector>
+	"HTML_DOC.h"
+	"HTML_TAG.h"
+
+1483178672 c:\users\brandon\desktop\improved html parser\html_doc.h
+
+1483177568 source:c:\users\brandon\desktop\improved html parser\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"HTML_DOC.h"
+	"HTML_TAG.h"
+
+1483190275 source:c:\users\brandon\desktop\improved html parser\html_tag.cpp
+	<iostream>
+	"HTML_TAG.h"
+
+1483178077 c:\users\brandon\desktop\improved html parser\html_tag.h
+

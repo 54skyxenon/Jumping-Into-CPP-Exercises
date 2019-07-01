@@ -1,0 +1,46 @@
+# turn on auto-indent
+set autoindent
+
+# syntax highlighting for C and C++
+syntax "C" ".*(h|c)(xx|pp)?|cc"
+# first color the whole include line magenta...
+color brightmagenta "^\s*#include\s*["<].*[">]"
+# then make the include (or any other preprocessor directive) itself blue
+color brightblue "^\s*#((include\s*)|((define\b|ifdef\b|else\b|endif\b|ifndef\b|if\b|else\b|elif\b|line\b|error\b|pragma\b|undef\b).*))"
+# types and type qualifiers are green
+color brightgreen "\bchar\b|\bint\b|\bvoid\b|\bfloat\b|\bdouble\b|\bvolatile\b|\bconst\b|\bmutable\b|\bclass\b|\bauto\b|\bbool\b|\benum\b|\bexplicit\b|\bextern\b|\bexport\b|\blong\b|\binline\b|\bnamespace\b|\bregister\b|\bshort\b|\bsigned\b|\bstatic\b|\bstruct\b|\btemplate\b|\btypedef\b|\btypename\b|\bunion\b|\bunsigned\b|\bvirtual\b|\bwchar_t\b"
+# other keywords are yellow
+color brightyellow "\bpublic\b|\bprivate\b|\bprotected\b|\bfor\b|\bwhile\b|\bdo\b|\bif\b|\belse\b|\band\b|\band_eq\b|\bbitand\b|\bbitor\b|\bcase\b|\bbreak\b|\bcatch\b|\bcompl\b|\bconst_cast\b|\bcontinue\b|\bdefault\b|\bdelete\b|\bdynamic_cast\b|\bnew\b|\bnot\b|\bnot_eq\b|\boperator\b|\bor\b|\bor_eq\b|\breinterpret_cast\b|\breturn\b|\bsizeof\b|\bstatic_cast\b|\bswitch\b|\bthis\b|\bthrow\b|\btry\b|\btypeid\b|\busing\b|\bxor\b|\bxor_eq\b"
+# constants are magenta
+color brightmagenta "\b__LINE__\b|\b__FILE__\b|\b__DATE__\b|\b__TIME__\b"
+color brightmagenta "\bfalse\b|\btrue\b|\b[0-9]+\b"
+color brightmagenta "'.'"
+# escaped characters ar red
+color brightred "'\\[abfnrtv\?"']'"
+# invalid escape sequences inside a character are highlighted
+color brightwhite,red "'\\[^abfnrtv\?"']'"
+color brightred "'\\0([0-9]{0,2})'"
+color brightred "'\\x([0-9]{1,2})'"
+# handle strings and escaping inside of strings
+# strategy here is: match against:
+#
+# 1) a quote:
+#       \"
+# 2) a string made up of: 
+#       (
+#       a) non-slash, non-quotes
+#               [^"\]
+#       b) an odd number of slashes preceding a quote
+#               ((\\*)\4\\"
+#       c) any number of slashes preceding a non-quote
+#               (\\*)[^\"])
+#       )*
+# 3) zero, or an even number of, slashes preceding a quote
+#       ((\\*)\5)\"
+color brightmagenta "\"(([^"\]|((\\*)\4\\")|(\\*)[^\"])*)((\\*)\5)\""
+# make comments cyan
+color brightcyan "//.*"
+color brightcyan start="\/\*" end="\*\/"
+
+# avoid an extra blank line under the titlebar
+set morespace

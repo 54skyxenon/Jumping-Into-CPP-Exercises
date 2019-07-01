@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1455358062 source:c:\users\brandon\desktop\binary tree implementation\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1459022822 source:c:\users\brandon\desktop\address book\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1462166236 source:c:\users\brandon\desktop\binary tree broken into files\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Node Definition.h"
+	"Bst Methods.h"
+
+1462064603 c:\users\brandon\desktop\binary tree broken into files\node definition.h
+
+1462166245 source:c:\users\brandon\desktop\binary tree broken into files\bst methods.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Node Definition.h"
+	"Bst Methods.h"
+
+1462088562 c:\users\brandon\desktop\binary tree broken into files\bst methods.h
+

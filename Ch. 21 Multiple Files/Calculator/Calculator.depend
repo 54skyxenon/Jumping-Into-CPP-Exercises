@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1462061962 source:c:\users\brandon\desktop\calculator\main.cpp
+	<iostream>
+	"Operators.h"
+
+1461980464 c:\users\brandon\desktop\calculator\operators.h
+
+1462061961 source:c:\users\brandon\desktop\calculator\operator mechanics.cpp
+	<iostream>
+	"Operators.h"
+

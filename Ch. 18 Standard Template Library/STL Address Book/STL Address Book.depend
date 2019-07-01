@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1459045943 source:c:\users\brandon\desktop\stl address book\main.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<map>
+

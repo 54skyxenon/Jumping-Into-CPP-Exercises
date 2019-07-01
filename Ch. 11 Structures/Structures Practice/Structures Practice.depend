@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1443858738 source:c:\users\brandon\desktop\structures practice\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
