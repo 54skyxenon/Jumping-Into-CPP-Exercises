@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1458978225 source:c:\users\brandon\desktop\iterative tree deletion\binary_tree.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
-

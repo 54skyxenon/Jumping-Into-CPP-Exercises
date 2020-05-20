@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1451885142 source:c:\users\brandon\desktop\recursive pow\main.cpp
-	<iostream>
-
-1451889907 source:c:\users\brandon\desktop\coding projects\c++\ch. 16 recursion\recursive pow\main.cpp
-	<iostream>
-	<cmath>
-

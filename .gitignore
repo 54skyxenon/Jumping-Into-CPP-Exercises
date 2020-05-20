@@ -1,2 +1,16 @@
-/Miscellaneous/
+# CodeBlocks environment files and C++ output
+
+*.cbp
+*.depend
+*.layout
+bin/
+.bin
+obj/
+*.exe
+*.o
+
+# OS Specific Junk
+
 .DS_Store
+thumbs.db
+desktop.ini

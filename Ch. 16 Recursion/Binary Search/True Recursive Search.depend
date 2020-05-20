@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1454472620 source:c:\users\brandon\desktop\true recursive search\main.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
-	<algorithm>
-

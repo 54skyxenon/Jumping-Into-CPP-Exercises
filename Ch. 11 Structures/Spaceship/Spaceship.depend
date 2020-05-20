@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1443861026 source:c:\users\brandon\desktop\spaceship\main.cpp
-	<iostream>
-	<stdlib.h>
-	<stdio.h>
-	<ctime>
-	<cstdlib>
-

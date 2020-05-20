@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1479545485 source:c:\users\brandon\desktop\vector search\main.cpp
-	<iostream>
-	<vector>
-	"VectorSearcher.h"
-
-1479545485 c:\users\brandon\desktop\vector search\vectorsearcher.h
-

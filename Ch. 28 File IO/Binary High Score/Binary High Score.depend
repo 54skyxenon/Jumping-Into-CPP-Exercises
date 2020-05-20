@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1482829470 source:c:\users\brandon\desktop\binary high score\main.cpp
-	<iostream>
-	<fstream>
-	<vector>
-
